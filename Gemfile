@@ -6,7 +6,6 @@ gem 'faker', '0.3.1'
 gem 'haml'
 gem 'slim'
 gem 'activeadmin'
-gem 'compass-rails'
 gem 'devise', '2.1.2'
 gem 'will_paginate', '3.0'
 gem 'bootstrap-will_paginate'
@@ -43,6 +42,8 @@ group :assets do
   gem 'bootstrap-sass-rails'
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'compass-rails'
+  gem 'zurb-foundation'
   gem 'uglifier', '>= 1.0.3'
 end
 

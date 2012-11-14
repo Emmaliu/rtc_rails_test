@@ -1,0 +1,18 @@
+@import 'gibson';
+
+@mixin GibsonLightItalic {
+  font-family: 'GibsonLightItalic', Hevetica, Arial, sans-serif;
+}
+
+body {
+  background: url('subtle_freckles.png');
+  .columns {
+    background-color: #dadada;
+  }
+}
+
+#main {
+  h1.tagline {
+    @include GibsonLightItalic; 
+  }
+}
