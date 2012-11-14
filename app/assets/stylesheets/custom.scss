@@ -4,11 +4,18 @@
   font-family: 'GibsonLightItalic', Hevetica, Arial, sans-serif;
 }
 
+@mixin GibsonRegular {
+  font-family: 'GibsonLightItalic', Hevetica, Arial, sans-serif;
+}
+
+$orange: #F05A24;
+
 body {
   background: url('subtle_freckles.png');
-  .columns {
-    background-color: #dadada;
-  }
+}
+
+h3 {
+  color: $orange;
 }
 
 #main {
